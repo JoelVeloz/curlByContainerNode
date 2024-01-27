@@ -4,13 +4,6 @@ services:
     network_mode: ipsec_strongswan_docker_automated_connection_myvpnnetwork
     build:
       context: .
-    environment:
-      DB_SCHEMA: postgres
-      DB_USER: postgres
-      DB_PASSWORD: postgres
-      DB_HOST: postgres
-    depends_on:
-      - postgres
     # ports:
     #   - '3000:3000'
         
