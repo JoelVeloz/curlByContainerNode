@@ -16,3 +16,8 @@ services:
         
 volumes:
   addressbook-db:
+
+networks:
+  ipsec_strongswan_docker_automated_connection_myvpnnetwork:
+    external:
+      name: ipsec_strongswan_docker_automated_connection_myvpnnetwork
